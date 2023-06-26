@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>buttons</title>
+    <script src="https://kit.fontawesome.com/8c232747d0.js" crossorigin="anonymous"></script>
+    <style>
+      body{
+        background-color: #191919;
+      }
+      button{
+        background-color: #191919;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        border: 2px solid #313131;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 20px;
+      }
+      button:hover{
+        background-color:#2F2F2F;
+      }
+      td{
+        padding: 10px;
+      }
+      #instagram{
+        color: #bc2c7c;
+      }
+      #whatsapp{
+        color: #2dbd39;
+      }
+      #amazon{
+        color: #fa9b13;
+      }
+      #overleaf{
+        color: #138a07;
+      }
+      #canva{
+        color: #7d2ae8;
+      }
+      #gmail{
+        color: #DBA403;
+      }
+      #youtube{
+        color: #FF0000
+      }
+      #calendar{
+        color: #1967d2;
+      }
+      #drive{
+        color: #ea4335;
+      }
+      #earth{
+        color: #2d9248;
+      }
+      #foto{
+        color: #fcb611;
+      }
+      #classroom{
+        color: #34a853;
+      }
+      #documenti{
+        color: #2684fc;
+      }
+      #fogli{
+        color: #00ac47;
+      }
+      #maps{
+        color: #1967d2;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+    <table width="100%">
+      <tr>
+        <td>
+          <!-- instagram -->
+          <button onclick="window.open('https://www.instagram.com', '_blank')">
+            <div> <i id="instagram" class="fa-brands fa-instagram"></i> Instagram</div>
+          </button>
+        </td>
+        <td>
+          <!-- whatsapp -->
+          <button onclick="window.open('https://web.whatsapp.com/', '_blank')">
+            <div><i id="whatsapp" class="fa-brands fa-whatsapp"></i> Whatsapp</div>
+          </button>
+        </td>
+        <td>
+          <!-- Amazon -->
+          <button onclick="window.open('https://www.amazon.it/', '_blank')">
+            <div> <i id="amazon" class="fa-brands fa-amazon"></i> Amazon</div>
+          </button>
+        </td>
+        <td>
+          <!-- overleaf -->
+          <button onclick="window.open('https://www.overleaf.com/project', '_blank')">
+            <div> <i id="overleaf" class="fa fa-leaf"></i> Overleaf</div>
+          </button>
+        </td>
+        <td>
+          <!-- canva -->
+          <button onclick="window.open('https://www.canva.com/', '_blank')">
+            <div> <i id="canva" class="fa fa-palette"></i> Canva</div>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <!-- calendar -->
+          <button onclick="window.open('https://calendar.google.com/calendar/u/0/r', '_blank')">
+            <div> <i id="calendar" class="fa-regular fa-calendar"></i> Calendar</div>
+          </button>
+        </td>
+        <td>
+          <!-- YouTube -->
+          <button onclick="window.open('https://youtube.com/', '_blank')">
+            <div> <i id="youtube" class="fa-solid fa-play"></i> YouTube</div>
+          </button>
+        </td>
+        <td>
+          <!-- GMAIL -->
+          <button onclick="window.open('https://gmail.com', '_blank')">
+            <div> <i id="gmail" class="fa-regular fa-envelope"></i> Gmail</div>
+          </button>
+        </td>
+        <td>
+          <!-- drive -->
+          <button onclick="window.open('https://drive.google.com/drive/u/0/my-drive', '_blank')">
+            <div> <i id="drive" class="fa-solid fa-hard-drive"></i> Drive</div>
+          </button>
+        </td>
+        <td>
+          <!-- earth -->
+          <button onclick="window.open('https://www.google.it/intl/it/earth/index.html', '_blank')">
+            <div> <i id="earth" class="fa-solid fa-earth-americas"></i> Earth</div>
+          </button>
+        </td>
+        </tr>
+        <tr>
+        <td>
+          <!-- foto -->
+          <button onclick="window.open('https://photos.google.com/', '_blank')">
+            <div> <i id="foto" class="fa-solid fa-image"></i> Foto</div>
+          </button>
+        </td>
+        <td>
+          <!-- classroom -->
+          <button onclick="window.open('https://classroom.google.com/u/1/', '_blank')">
+            <div> <i id="classroom" class="fa-solid fa-book"></i> Classroom</div>
+          </button>
+        </td>
+        <td>
+          <!-- documenti -->
+          <button onclick="window.open('https://docs.google.com/document/u/0/', '_blank')">
+            <div> <i id="documenti" class="fa fa-file-word"></i> Documenti</div>
+          </button>
+        </td>
+        <td>
+          <!-- fogli -->
+          <button onclick="window.open('https://docs.google.com/spreadsheets/u/0/', '_blank')">
+            <div> <i id="fogli" class="fa fa-file-excel"></i> Fogli</div>
+          </button>
+        </td>
+        <td>
+          <!-- maps -->
+          <button onclick="window.open('https://www.google.com/maps?authuser=0', '_blank')">
+            <div> <i id="maps" class="fa-solid fa-map-location-dot"></i> Maps</div>
+          </button>
+        </td>
+      </tr>
+    </table>
+    </center>
+  </body>
+</html>
